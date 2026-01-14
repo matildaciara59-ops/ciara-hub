@@ -1,4 +1,3 @@
-import { Check, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -6,57 +5,53 @@ interface PackageCardProps {
   name: string;
   price: string;
   description: string;
-  features: string[];
-  popular?: boolean;
+  image: string;
   index: number;
 }
 
-const PackageCard = ({ name, price, description, features, popular, index }: PackageCardProps) => {
+const PackageCard = ({ name, price, description, image, index }: PackageCardProps) => {
+  const handleConnect = () => {
+    const message = encodeURIComponent(`Hi, I'm interested in connecting with ${name} from Ciara Hub.`);
+    window.open(`https://wa.me/254733647421?text=${message}`, '_blank');
+  };
+
   return (
     <div 
       className={cn(
-        "relative bg-card rounded-2xl p-8 shadow-card card-hover border border-border",
-        popular && "border-accent ring-2 ring-accent/20"
+        "relative bg-card rounded-2xl overflow-hidden shadow-card card-hover border border-border"
       )}
       style={{ animationDelay: `${index * 100}ms` }}
     >
-      {popular && (
-        <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-          <div className="flex items-center gap-1.5 bg-accent text-accent-foreground px-4 py-1.5 rounded-full text-sm font-medium shadow-soft">
-            <Star className="w-4 h-4 fill-current" />
-            Most Popular
-          </div>
+      {/* Image Section */}
+      <div className="aspect-[3/4] w-full overflow-hidden bg-muted">
+        <img 
+          src={image} 
+          alt={name}
+          className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+        />
+      </div>
+      
+      {/* Content Section */}
+      <div className="p-6">
+        <div className="text-center mb-4">
+          <h3 className="font-heading text-2xl font-bold text-foreground mb-1">{name}</h3>
+          <p className="text-muted-foreground text-sm">{description}</p>
         </div>
-      )}
-      
-      <div className="text-center mb-6">
-        <h3 className="font-heading text-2xl font-bold text-foreground mb-2">{name}</h3>
-        <p className="text-muted-foreground text-sm">{description}</p>
+        
+        <div className="text-center mb-6">
+          <span className="font-heading text-3xl font-bold text-accent">{price}</span>
+          <span className="text-muted-foreground ml-1">/connection</span>
+        </div>
+        
+        <Button 
+          variant="gold" 
+          size="lg" 
+          className="w-full"
+          onClick={handleConnect}
+        >
+          Connect Now
+        </Button>
       </div>
-      
-      <div className="text-center mb-8">
-        <span className="font-heading text-5xl font-bold text-foreground">{price}</span>
-        {price !== "Custom" && <span className="text-muted-foreground ml-1">/package</span>}
-      </div>
-      
-      <ul className="space-y-4 mb-8">
-        {features.map((feature, i) => (
-          <li key={i} className="flex items-start gap-3">
-            <div className="flex-shrink-0 w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center mt-0.5">
-              <Check className="w-3 h-3 text-primary" />
-            </div>
-            <span className="text-foreground text-sm">{feature}</span>
-          </li>
-        ))}
-      </ul>
-      
-      <Button 
-        variant={popular ? "gold" : "heroOutline"} 
-        size="lg" 
-        className="w-full"
-      >
-        Get Started
-      </Button>
     </div>
   );
 };

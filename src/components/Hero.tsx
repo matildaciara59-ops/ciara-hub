@@ -16,7 +16,7 @@ const Hero = () => {
           </div>
           
           <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight mb-6">
-            Elevate Your Journey with{" "}
+            Welcome To{" "}
             <span className="text-gradient">Ciara Hub</span>
           </h1>
           

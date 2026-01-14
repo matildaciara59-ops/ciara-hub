@@ -2,82 +2,40 @@ import PackageCard from "./PackageCard";
 
 const packages = [
   {
-    name: "Starter",
-    price: "$99",
-    description: "Perfect for getting started",
-    features: [
-      "Basic consultation session",
-      "Personalized action plan",
-      "Email support for 7 days",
-      "Access to starter resources",
-    ],
+    name: "Rose",
+    price: "KSh 499",
+    description: "Beautiful connection awaits",
+    image: "/placeholder.svg",
   },
   {
-    name: "Essential",
-    price: "$249",
-    description: "For growing ambitions",
-    features: [
-      "Everything in Starter",
-      "2 strategy sessions",
-      "Priority email support",
-      "Custom templates pack",
-      "30-day follow-up support",
-    ],
+    name: "Merry",
+    price: "KSh 499",
+    description: "Joyful moments together",
+    image: "/placeholder.svg",
   },
   {
-    name: "Professional",
-    price: "$499",
-    description: "Comprehensive solutions",
-    features: [
-      "Everything in Essential",
-      "4 in-depth sessions",
-      "Implementation guidance",
-      "Resource library access",
-      "60-day support",
-      "Progress tracking",
-    ],
-    popular: true,
+    name: "Neddy",
+    price: "KSh 499",
+    description: "Sweet companionship",
+    image: "/placeholder.svg",
   },
   {
-    name: "Premium",
-    price: "$799",
-    description: "Enhanced experience",
-    features: [
-      "Everything in Professional",
-      "6 premium sessions",
-      "VIP support access",
-      "Advanced tools & resources",
-      "90-day partnership",
-      "Monthly check-ins",
-    ],
+    name: "Laurah",
+    price: "KSh 499",
+    description: "Elegant and charming",
+    image: "/placeholder.svg",
   },
   {
-    name: "Elite",
-    price: "$1,299",
-    description: "Ultimate transformation",
-    features: [
-      "Everything in Premium",
-      "Unlimited sessions",
-      "Direct access line",
-      "Full resource suite",
-      "6-month commitment",
-      "Quarterly reviews",
-      "Exclusive community access",
-    ],
+    name: "Eacubeth",
+    price: "KSh 499",
+    description: "Unique and special",
+    image: "/placeholder.svg",
   },
   {
-    name: "Enterprise",
-    price: "Custom",
-    description: "Tailored for organizations",
-    features: [
-      "Fully customized program",
-      "Team training sessions",
-      "Dedicated account manager",
-      "Custom integrations",
-      "Annual partnership",
-      "On-site workshops",
-      "White-glove service",
-    ],
+    name: "Velmah",
+    price: "KSh 499",
+    description: "Warm and caring",
+    image: "/placeholder.svg",
   },
 ];
 
@@ -87,11 +45,11 @@ const Packages = () => {
       <div className="container mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-up">
           <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Choose Your <span className="text-gradient-gold">Perfect Package</span>
+            Choose Your <span className="text-gradient-gold">Connection</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Select the package that best fits your needs. Each tier is designed to deliver 
-            exceptional value and help you achieve your goals.
+            Select the perfect connection that matches your preferences. 
+            Each connection is designed to bring you joy and companionship.
           </p>
         </div>
         
