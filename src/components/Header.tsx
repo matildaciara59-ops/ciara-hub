@@ -1,6 +1,13 @@
 import { Button } from "@/components/ui/button";
 
 const Header = () => {
+  const handleGetStarted = () => {
+    const packagesSection = document.getElementById('packages');
+    if (packagesSection) {
+      packagesSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-6 h-16 flex items-center justify-between">
@@ -14,6 +21,9 @@ const Header = () => {
           <a href="#packages" className="text-muted-foreground hover:text-foreground transition-colors font-medium">
             Packages
           </a>
+          <a href="#gallery" className="text-muted-foreground hover:text-foreground transition-colors font-medium">
+            Gallery
+          </a>
           <a href="#about" className="text-muted-foreground hover:text-foreground transition-colors font-medium">
             About
           </a>
@@ -22,7 +32,7 @@ const Header = () => {
           </a>
         </nav>
 
-        <Button variant="gold" size="sm">
+        <Button variant="gold" size="sm" onClick={handleGetStarted}>
           Get Started
         </Button>
       </div>
