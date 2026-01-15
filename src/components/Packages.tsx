@@ -3,7 +3,7 @@ import PackageCard from "./PackageCard";
 const packages = [
   {
     name: "Rose",
-    price: "KSh 499",
+    price: "KSh 349",
     description: "Beautiful connection awaits",
     image: "/placeholder.svg",
   },
@@ -15,25 +15,25 @@ const packages = [
   },
   {
     name: "Neddy",
-    price: "KSh 499",
+    price: "KSh 399",
     description: "Sweet companionship",
     image: "/placeholder.svg",
   },
   {
     name: "Laurah",
-    price: "KSh 499",
+    price: "KSh 459",
     description: "Elegant and charming",
     image: "/placeholder.svg",
   },
   {
     name: "Eacubeth",
-    price: "KSh 499",
+    price: "KSh 400",
     description: "Unique and special",
     image: "/placeholder.svg",
   },
   {
     name: "Velmah",
-    price: "KSh 499",
+    price: "KSh 299",
     description: "Warm and caring",
     image: "/placeholder.svg",
   },
