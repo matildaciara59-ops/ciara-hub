@@ -17,7 +17,7 @@ const Hero = () => {
           
           <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight mb-6">
             Welcome To{" "}
-            <span className="text-gradient">Ciara Hub</span>
+            <span className="text-gradient-gold">Ciara Hub</span>
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
