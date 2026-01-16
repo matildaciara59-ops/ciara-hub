@@ -1,41 +1,47 @@
 import PackageCard from "./PackageCard";
+import roseImg from "@/assets/rose.jpg";
+import merryImg from "@/assets/merry.jpg";
+import neddyImg from "@/assets/neddy.jpg";
+import laurahImg from "@/assets/laurah.jpg";
+import eacubethImg from "@/assets/eacubeth.jpg";
+import velmahImg from "@/assets/velmah.jpg";
 
 const packages = [
   {
     name: "Rose",
     price: "KSh 349",
     description: "Beautiful connection awaits",
-    image: "/placeholder.svg",
+    image: roseImg,
   },
   {
     name: "Merry",
     price: "KSh 499",
     description: "Joyful moments together",
-    image: "/placeholder.svg",
+    image: merryImg,
   },
   {
     name: "Neddy",
     price: "KSh 399",
     description: "Sweet companionship",
-    image: "/placeholder.svg",
+    image: neddyImg,
   },
   {
     name: "Laurah",
     price: "KSh 459",
     description: "Elegant and charming",
-    image: "/placeholder.svg",
+    image: laurahImg,
   },
   {
     name: "Eacubeth",
     price: "KSh 400",
     description: "Unique and special",
-    image: "/placeholder.svg",
+    image: eacubethImg,
   },
   {
     name: "Velmah",
     price: "KSh 299",
     description: "Warm and caring",
-    image: "/placeholder.svg",
+    image: velmahImg,
   },
 ];
 
