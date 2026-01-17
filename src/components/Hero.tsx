@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center animate-fade-up">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-accent/10 rounded-full text-accent mb-8">
             <Sparkles className="w-4 h-4" />
-            <span className="text-sm font-medium">Premium Solutions for Your Success</span>
+            <span className="text-sm font-medium">Your Trusted Connection Platform</span>
           </div>
           
           <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight mb-6">
@@ -21,8 +21,8 @@ const Hero = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
-            Discover our carefully curated packages designed to transform your vision into reality. 
-            Choose the perfect plan that aligns with your goals.
+            Welcome to Ciara Hub for Legit connection. 
+            Choose your favorite connection today.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
