@@ -12,7 +12,7 @@ interface PackageCardProps {
 const PackageCard = ({ name, price, description, image, index }: PackageCardProps) => {
   const handleConnect = () => {
     const message = encodeURIComponent(`Hi, I'm interested in connecting with ${name} from Ciara Hub.`);
-    window.open(`https://wa.me/254733647421?text=${message}`, '_blank');
+    window.open(`https://wa.me/254106370633?text=${message}`, '_blank');
   };
 
   return (
