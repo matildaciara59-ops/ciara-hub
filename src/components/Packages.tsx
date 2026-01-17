@@ -54,8 +54,7 @@ const Packages = () => {
             Choose Your <span className="text-gradient-gold">Connection</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Select the perfect connection that matches your preferences. 
-            Each connection is designed to bring you joy and companionship.
+            Welcome to Ciara Hub for Legit connection
           </p>
         </div>
         
