@@ -9,37 +9,37 @@ import velmahImg from "@/assets/velmah.jpg";
 const packages = [
   {
     name: "Rose",
-    price: "KSh 349",
+    price: "KSh 199",
     description: "Beautiful connection awaits",
     image: roseImg,
   },
   {
     name: "Merry",
-    price: "KSh 499",
+    price: "KSh 159",
     description: "Joyful moments together",
     image: merryImg,
   },
   {
     name: "Neddy",
-    price: "KSh 399",
+    price: "KSh 200",
     description: "Sweet companionship",
     image: neddyImg,
   },
   {
     name: "Laurah",
-    price: "KSh 459",
+    price: "KSh 249",
     description: "Elegant and charming",
     image: laurahImg,
   },
   {
     name: "Eacubeth",
-    price: "KSh 400",
+    price: "KSh 200",
     description: "Unique and special",
     image: eacubethImg,
   },
   {
     name: "Velmah",
-    price: "KSh 299",
+    price: "KSh 199",
     description: "Warm and caring",
     image: velmahImg,
   },
