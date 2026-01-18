@@ -4,6 +4,12 @@ import joyImg from "@/assets/joy.jpg";
 import gloriaImg from "@/assets/gloria.jpg";
 import merrizahImg from "@/assets/merrizah.jpg";
 import fidelisImg from "@/assets/fidelis.jpg";
+import roseImg from "@/assets/rose.jpg";
+import merryImg from "@/assets/merry.jpg";
+import neddyImg from "@/assets/neddy.jpg";
+import laurahImg from "@/assets/laurah.jpg";
+import eacubethImg from "@/assets/eacubeth.jpg";
+import velmahImg from "@/assets/velmah.jpg";
 
 const galleryImages = [
   { id: 1, image: stephanieImg, alt: "Stephanie" },
@@ -12,6 +18,12 @@ const galleryImages = [
   { id: 4, image: gloriaImg, alt: "Gloria" },
   { id: 5, image: merrizahImg, alt: "Merrizah" },
   { id: 6, image: fidelisImg, alt: "Fidelis" },
+  { id: 7, image: roseImg, alt: "Rose" },
+  { id: 8, image: merryImg, alt: "Merry" },
+  { id: 9, image: neddyImg, alt: "Neddy" },
+  { id: 10, image: laurahImg, alt: "Laurah" },
+  { id: 11, image: eacubethImg, alt: "Eacubeth" },
+  { id: 12, image: velmahImg, alt: "Velmah" },
 ];
 
 const Gallery = () => {
