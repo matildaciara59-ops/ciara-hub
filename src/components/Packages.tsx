@@ -1,47 +1,47 @@
 import PackageCard from "./PackageCard";
-import roseImg from "@/assets/rose.jpg";
-import merryImg from "@/assets/merry.jpg";
-import neddyImg from "@/assets/neddy.jpg";
-import laurahImg from "@/assets/laurah.jpg";
-import eacubethImg from "@/assets/eacubeth.jpg";
-import velmahImg from "@/assets/velmah.jpg";
+import stephanieImg from "@/assets/stephanie.jpg";
+import beckyImg from "@/assets/becky.jpg";
+import joyImg from "@/assets/joy.jpg";
+import gloriaImg from "@/assets/gloria.jpg";
+import merrizahImg from "@/assets/merrizah.jpg";
+import fidelisImg from "@/assets/fidelis.jpg";
 
 const packages = [
   {
-    name: "Rose",
+    name: "Stephanie",
     price: "KSh 199",
     description: "Beautiful connection awaits",
-    image: roseImg,
+    image: stephanieImg,
   },
   {
-    name: "Merry",
-    price: "KSh 159",
-    description: "Joyful moments together",
-    image: merryImg,
-  },
-  {
-    name: "Neddy",
+    name: "Becky",
     price: "KSh 200",
+    description: "Joyful moments together",
+    image: beckyImg,
+  },
+  {
+    name: "Joy",
+    price: "KSh 150",
     description: "Sweet companionship",
-    image: neddyImg,
+    image: joyImg,
   },
   {
-    name: "Laurah",
-    price: "KSh 249",
+    name: "Gloria",
+    price: "KSh 299",
     description: "Elegant and charming",
-    image: laurahImg,
+    image: gloriaImg,
   },
   {
-    name: "Eacubeth",
+    name: "Merrizah",
     price: "KSh 200",
     description: "Unique and special",
-    image: eacubethImg,
+    image: merrizahImg,
   },
   {
-    name: "Velmah",
-    price: "KSh 199",
+    name: "Fidelis",
+    price: "KSh 150",
     description: "Warm and caring",
-    image: velmahImg,
+    image: fidelisImg,
   },
 ];
 
