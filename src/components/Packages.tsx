@@ -5,6 +5,12 @@ import joyImg from "@/assets/joy.jpg";
 import gloriaImg from "@/assets/gloria.jpg";
 import merrizahImg from "@/assets/merrizah.jpg";
 import fidelisImg from "@/assets/fidelis.jpg";
+import roseImg from "@/assets/rose.jpg";
+import merryImg from "@/assets/merry.jpg";
+import neddyImg from "@/assets/neddy.jpg";
+import laurahImg from "@/assets/laurah.jpg";
+import eacubethImg from "@/assets/eacubeth.jpg";
+import velmahImg from "@/assets/velmah.jpg";
 
 const packages = [
   {
@@ -42,6 +48,42 @@ const packages = [
     price: "KSh 150",
     description: "Warm and caring",
     image: fidelisImg,
+  },
+  {
+    name: "Rose",
+    price: "KSh 199",
+    description: "Graceful and lovely",
+    image: roseImg,
+  },
+  {
+    name: "Merry",
+    price: "KSh 159",
+    description: "Cheerful spirit",
+    image: merryImg,
+  },
+  {
+    name: "Neddy",
+    price: "KSh 200",
+    description: "Kind and gentle",
+    image: neddyImg,
+  },
+  {
+    name: "Laurah",
+    price: "KSh 249",
+    description: "Sophisticated charm",
+    image: laurahImg,
+  },
+  {
+    name: "Eacubeth",
+    price: "KSh 200",
+    description: "Radiant personality",
+    image: eacubethImg,
+  },
+  {
+    name: "Velmah",
+    price: "KSh 199",
+    description: "Warm and caring",
+    image: velmahImg,
   },
 ];
 
